@@ -2,7 +2,7 @@
 
 The program solves a specific type of problem where the design requirements for **compensated closed loop system** are given including the required **ess, PO, Tsettle, and Trise**. The input is also assumed to be **step**. 
 
-## **STEP 1** : Calculate the Model and Actual Uncompensated System Function and Specs. 
+## **STEP 1** : Calculate the Model and Actual Uncompensated System Transfer Function and Specs. 
 1. First, the program calculates **closed loop transfer function of uncompensated system, Gcl_u(s)** using the given process transfer function, G such that: Gcl_u = feedback(G,1,-1)
 2. Then using the transfer function it calculates the actual specs: stepinfo(Gcl_u) (_or stepeval(Gcl_u,7) if file is available_). 
 3. The model of the uncompensated system is generated using the zpk(Gcl_u) function and cancel the near-pole zeros and negligle pole. If it is a type 1 system, the Kdc would be 1 else the Kdc is calculated. 
