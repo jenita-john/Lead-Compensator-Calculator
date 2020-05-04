@@ -27,7 +27,7 @@ function[] = Lead(G,pm,wcp,PO,ess,Ts,Tr);
  figure(1);
  disp(' ')
  disp('Actual Uncompensated Response Specs:');
- stepinfo(Gcl);                              %%stepeval(Gcl,7);                           % Change t if required 
+ stepinfo(Gcl);                              %%use stepeval(Gmc,7) if file present 
  disp(' ')
  wn = (((tand(pm))*wcp)/(2*C));             % Calculates wn
  Kdc = dcgain(Gcl);                         % Closed Loop DC gain 
@@ -47,7 +47,7 @@ function[] = Lead(G,pm,wcp,PO,ess,Ts,Tr);
  figure(2);                                   
  disp(' ')
  disp('Model for the Uncompensated Response Specs:');
- stepinfo(Gmu);                         %%stepeval(Gmu,7);                                    % Change t if required 
+ stepinfo(Gmu);                         %%use stepeval(Gmc,7) if file present  
  disp(' ')
  %% Comparison Graph of both model and actual uncompensated response 
  figure(3);
@@ -147,12 +147,12 @@ function[] = Lead(G,pm,wcp,PO,ess,Ts,Tr);
  figure(6);
  disp(' ')
  disp('Actual Compensated Response Specs:');
- stepinfo(Go_cc);                       %%stepeval(Go_cc,7);
+ stepinfo(Go_cc);                       %%use stepeval(Gmc,7) if file present 
  disp(' ')
  figure(7);
  disp(' ')
  disp('Model Compensated Response Specs:');
- stepinfo(Gmc);                        %%stepeval(Gmc,7)
+ stepinfo(Gmc);                        %% use stepeval(Gmc,7) if file present 
  disp(' ')
  %% Comparison between Model and Actual Compensated Response 
  %Gmc_o = Gmc*G;
