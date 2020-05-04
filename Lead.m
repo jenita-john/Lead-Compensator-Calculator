@@ -1,7 +1,7 @@
 %% Lead Controller
 % With assumption that the values for Pm and wcp are given(Bode Plot)and the process
 % transfer function is also given 
-% lead(sys,pm,wcp)
+% Lead(sys,pm,wcp,PO,ess, Ts,Tr)
 % Author: Jenita John
 % Files needed: Stepeval.m, Vector.m 
 % Inputs G, pm, wcp and the desired values PO,ess%,Tsettle(2%),Trise(100%)
