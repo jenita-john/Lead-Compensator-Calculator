@@ -1,12 +1,17 @@
-# Designing a Lead Controller 
+# Designing a Lead Compensator Calculator 
+<img align="left" alt="COURSE" src="https://img.shields.io/badge/Course-ELE--639-brightgreen"/>
+<img align="left" alt="COURSE" src="https://img.shields.io/badge/Language%20-Matlab-yellow"/>
+<br>
 
 ## Description 
-The program uses Matlab to calculate the metrics of a Lead Controller. 
+Knowledge gained from the course work and experiments were applied to calculate the metrics of a Lead Compensator using MATLAB. Using the Lead function with the required arguments a model or an actual's transfer function and parameters can be found, along with their figures generated automatically. Below can be found the description on steps to calculate the transfer function and paramters.  
 
 ## Usage 
 Required Inputs (in step): ess, PO, Tsettle, Trise.
 
 The program solves a specific type of problem where the design requirements for **compensated closed loop system** are given including the required **ess, PO, Tsettle, and Trise**. The input is also assumed to be **step**. 
+
+`Lead(sys,pm,wcp,PO,ess, Ts,Tr)` 
 
 ## Motivation
 ELE 639 - Control Systems Lab 
@@ -35,3 +40,8 @@ ELE 639 - Control Systems Lab
 5. The specs for the model is again calculated using the stepinfo function. 
 
 The program also generates necessary bode plots and step response. 
+
+## Output 
+Figure 1 and Figure 2 gives the step response of uncompensated system 
+Figure 3 Compares Gmu(model) with Gcl 
+Figure 4 gives the bode plot of the open loop system
