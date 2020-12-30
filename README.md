@@ -1,7 +1,17 @@
 # Designing a Lead Controller 
 
+## Description 
+The program uses Matlab to calculate the metrics of a Lead Controller. 
+
+## Usage 
+Required Inputs (in step): ess, PO, Tsettle, Trise.
+
 The program solves a specific type of problem where the design requirements for **compensated closed loop system** are given including the required **ess, PO, Tsettle, and Trise**. The input is also assumed to be **step**. 
 
+## Motivation
+ELE 639 - Control Systems Lab 
+
+## Design and Steps to solve 
 ## **STEP 1** : Calculate the Model and Actual Uncompensated System Transfer Function and Specs. 
 1. First, the program calculates **closed loop transfer function of uncompensated system, Gcl_u(s)** using the given process transfer function, G such that: Gcl_u = feedback(G,1,-1)
 2. Then using the transfer function it calculates the actual specs: stepinfo(Gcl_u) (_or stepeval(Gcl_u,7) if file is available_). 
