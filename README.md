@@ -42,6 +42,6 @@ ELE 639 - Control Systems Lab
 The program also generates necessary bode plots and step response. 
 
 ## Output 
-Figure 1 and Figure 2 gives the step response of uncompensated system 
-Figure 3 Compares Gmu(model) with Gcl 
-Figure 4 gives the bode plot of the open loop system
+-Figure 1 and Figure 2 gives the step response of uncompensated system 
+-Figure 3 Compares Gmu(model) with Gcl 
+-Figure 4 gives the bode plot of the open loop system
