@@ -11,7 +11,9 @@ Required Inputs (in step): ess, PO, Tsettle, Trise.
 
 The program solves a very specific type of problem where the design requirements for **compensated closed loop system** (i.e Bode plot and process transfer function) are known including the required **ess, PO, Tsettle, and Trise**. The input is also assumed to be **step**. 
 
-`Lead(sys,pm,wcp,PO,ess, Ts,Tr)` 
+```
+  Lead(sys,pm,wcp,PO,ess, Ts,Tr)
+``` 
 
 ## Motivation
 ELE 639 - Control Systems Lab 
