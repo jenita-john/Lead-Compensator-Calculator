@@ -4,7 +4,7 @@
 <br>
 
 ## Description 
-Knowledge gained from the course work and experiments were applied to calculate the metrics of a Lead Compensator using MATLAB. Using the Lead function with the required arguments a model or an actual's transfer function and parameters can be found, along with their figures generated automatically. Below can be found the description on steps to calculate the transfer function and paramters.  
+Knowledge gained from the course in control theory and experiments were applied to calculate the metrics of a Lead Compensator using MATLAB. Using the Lead function with the required arguments a model or an actual's transfer function and parameters can be found, along with their step response figures generated automatically. Below can be found the description on steps to calculate the transfer function and paramters.  
 
 ## Usage 
 Required Inputs (in step): ess, PO, Tsettle, Trise.
