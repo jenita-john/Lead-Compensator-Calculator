@@ -9,7 +9,7 @@ Knowledge gained from the course work and experiments were applied to calculate 
 ## Usage 
 Required Inputs (in step): ess, PO, Tsettle, Trise.
 
-The program solves a specific type of problem where the design requirements for **compensated closed loop system** are given including the required **ess, PO, Tsettle, and Trise**. The input is also assumed to be **step**. 
+The program solves a very specific type of problem where the design requirements for **compensated closed loop system** (i.e Bode plot and process transfer function) are given including the required **ess, PO, Tsettle, and Trise**. The input is also assumed to be **step**. 
 
 `Lead(sys,pm,wcp,PO,ess, Ts,Tr)` 
 
