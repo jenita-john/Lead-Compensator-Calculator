@@ -1,5 +1,4 @@
 # Designing a Lead Compensator Calculator 
-<img align="left" alt="COURSE" src="https://img.shields.io/badge/Course-ELE--639-brightgreen"/>
 <img align="left" alt="COURSE" src="https://img.shields.io/badge/Language%20-Matlab-yellow"/>
 <br>
 
